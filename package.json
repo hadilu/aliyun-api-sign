@@ -8,6 +8,13 @@
     "start": "npm run build && node dist/index.js",
     "test": "npm run build && node dist/test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liumingmad/aliyun-api-sign"
+  },
+  "keywords": [
+    "aliyun api signture"
+  ],
   "author": "ming",
   "license": "MIT",
   "dependencies": {
