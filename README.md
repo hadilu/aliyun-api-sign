@@ -2,6 +2,7 @@
 为阿里云api的参数做签名
 
 [阿里云api公共参数](https://help.aliyun.com/document_detail/44432.html?spm=a2c4g.11186623.2.23.519e794eayGWYj)
+
 [签名机制](https://help.aliyun.com/document_detail/44434.html?spm=a2c4g.11186623.2.13.20974bd3lM27eI)
 
 ```
@@ -44,8 +45,3 @@ http://vod.cn-shanghai.aliyuncs.com/?AccessKeyId=accessKeyId&Action=CreateUpload
   Signature: 'pfuvo+EqSYm8ZIEp2sJDlteS7ho=' }
 ```
 
-const url = 'http://vod.cn-shanghai.aliyuncs.com/?' + sign.genParamStr();
-console.log(url);
-
-const params = sign.genParam();
-console.log(params);
