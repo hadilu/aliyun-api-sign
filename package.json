@@ -1,8 +1,11 @@
 {
-  "name": "aliyun-api-sign",
-  "version": "1.0.0",
+  "name": "ali-api-signature",
+  "version": "1.0.2",
   "description": "aliyun api sign RFC3986",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "babel src -d dist",
     "start": "npm run build && node dist/index.js",
